@@ -17,11 +17,11 @@ public class HomePage {
 	By storeMenu=By.cssSelector("li[id='menu-item-1227'] a");
 	
 	
-	public StorePage clickOnStoreMenu() {
+	public void clickOnStoreMenu() {
 		
 		driver.findElement(storeMenu).click();
 		
-		return new StorePage(driver);
+	//	return new StorePage(driver);
 	}
 		
 		
